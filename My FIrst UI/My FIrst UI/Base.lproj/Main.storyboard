@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_FIrst_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Girl" translatesAutoresizingMaskIntoConstraints="NO" id="HtT-fA-buM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fXk-vP-g01">
+                                <rect key="frame" x="20" y="797.66666666666663" width="211.33333333333334" height="54.333333333333371"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;I'd love to meet you!&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpE-oj-5sm">
+                                        <rect key="frame" x="0.0" y="0.0" width="211.33333333333334" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REEEEEEEEEE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f0-nY-cMZ">
+                                        <rect key="frame" x="0.0" y="34" width="211.33333333333334" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chat" translatesAutoresizingMaskIntoConstraints="NO" id="QrP-6r-PbJ">
+                                <rect key="frame" x="316" y="654.66666666666663" width="93" height="93"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joanna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bx1-4I-5wd">
+                                <rect key="frame" x="19.999999999999993" y="84" width="105.33333333333331" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Close" translatesAutoresizingMaskIntoConstraints="NO" id="ynX-vE-ZAh">
+                                <rect key="frame" x="360" y="84" width="34" height="34"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QrP-6r-PbJ" secondAttribute="trailing" constant="20" id="0Bn-I1-SI5">
+                                <variation key="heightClass=regular-widthClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="fXk-vP-g01" firstAttribute="top" secondItem="QrP-6r-PbJ" secondAttribute="bottom" constant="50" id="8Gj-dn-0kO"/>
+                            <constraint firstAttribute="bottom" secondItem="HtT-fA-buM" secondAttribute="bottom" id="9uB-Vr-809"/>
+                            <constraint firstItem="fXk-vP-g01" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Kg5-SW-wYw">
+                                <variation key="heightClass=compact-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="Bx1-4I-5wd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qzi-IG-ZMJ"/>
+                            <constraint firstAttribute="trailing" secondItem="HtT-fA-buM" secondAttribute="trailing" id="RSH-b7-o3P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fXk-vP-g01" secondAttribute="bottom" constant="40" id="UTc-Sr-eE9">
+                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ynX-vE-ZAh" secondAttribute="trailing" constant="20" id="a6n-aH-IJA"/>
+                            <constraint firstItem="ynX-vE-ZAh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="byx-XT-okM"/>
+                            <constraint firstItem="HtT-fA-buM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d6L-hJ-Xc4"/>
+                            <constraint firstItem="HtT-fA-buM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hVJ-Km-HL5"/>
+                            <constraint firstItem="Bx1-4I-5wd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="jih-oP-xR8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chat" width="93" height="93"/>
+        <image name="Close" width="34" height="34"/>
+        <image name="Girl" width="414" height="504"/>
+    </resources>
+</document>
